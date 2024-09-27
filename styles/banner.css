@@ -1,21 +1,19 @@
 .banner{
-background-color: var(--azul-degrade);
-display: flex;
-justify-content: center;
+    background-color:  var(--azul-degrade);
+    display: flex;
+    justify-content: center;
 }
 
-    .banner__titulo{
+.banner__titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
 
-    }
+.banner__texto{
+    font-weight: 500;
+    margin: 1em;
+} 
 
-    .banner__titulo{
-
-    }
-
-    banner__texto{
-
-    }
-
-    .banner__pesquisa{
-
-    }
+.banner__pesquisa{
+    background-color: var(--azul-degrade);
+}
